@@ -14,8 +14,8 @@
 int main(int argc, const char * argv[])
 {
 	// Declaration of variables used
-	unsigned long N = 600851475143;
-	unsigned long p = 3;
+	unsigned long N = 600851475143;					// The number top be factored
+	unsigned long p = 3;									// Prime factor to be tested
 	
 	// Register starting time
 	clock_t startTime = clock();
